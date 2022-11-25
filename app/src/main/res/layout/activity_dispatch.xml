@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.vendor.activity.DispatchActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/llBottom"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <EditText
+                            android:id="@+id/edtVType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:drawableEnd="@drawable/ic_arrow_down"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:hint="Vehical Type"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+                        <EditText
+                            android:id="@+id/edtVehicleNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+
+                            android:inputType="textCapCharacters"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:hint="Vehicle Number"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <EditText
+                            android:id="@+id/edtDriverName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:inputType="textCapWords"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:hint="Driver Name"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+                        <EditText
+                            android:id="@+id/edtDriverNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:maxLength="10"
+                            android:inputType="phone"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:hint="Driver's Number"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <EditText
+                            android:id="@+id/edtTrasport"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:hint="Transport"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+                        <!--  <EditText
+                              android:id="@+id/edtTrasport"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_margin="4dp"
+                              android:layout_weight="1"
+                              android:background="@drawable/edit_rounded_bg"
+                              android:drawableEnd="@drawable/ic_arrow_down"
+                              android:editable="false"
+                              android:focusable="false"
+                              android:hint="Transport"
+                              android:maxLines="1"
+                              android:paddingStart="10dp"
+                              android:paddingEnd="10dp" />-->
+
+                        <EditText
+                            android:id="@+id/edtVenderName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:drawableEnd="@drawable/ic_arrow_down"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:hint="Vendor"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <EditText
+                            android:id="@+id/edtPONumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:hint="PO Number"
+                            android:inputType="textCapCharacters"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+
+                        <EditText
+                            android:id="@+id/edtInvoiceNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_rounded_bg"
+                            android:hint="Invoice Number"
+                            android:maxLines="1"
+                            android:inputType="textCapCharacters"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:visibility="gone"
+                        android:id="@+id/edtCompanyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/edit_rounded_bg"
+                        android:gravity="left"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:hint="Select Company"
+                        android:maxLines="10"
+                        android:minLines="1"
+                        android:padding="15dp" />
+
+                    <EditText
+                        android:id="@+id/edtOther"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/edit_rounded_bg"
+                        android:gravity="left"
+                        android:hint="Comment (if any...)"
+                        android:maxLines="10"
+                        android:minLines="1"
+                        android:padding="15dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+          <!--  <TextView
+                android:id="@+id/txtListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Pending Dispatch List"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnContinue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtListTitle"
+                tools:listitem="@layout/item_already_blended" />
+
+-->
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:background="@color/grayLight"
+            android:orientation="horizontal"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Total weight: "
+                android:textColor="@color/textColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtTotalDrumCapacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="0 Kg."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/btnDispatchNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_ractangle"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Dispatch"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_font_size" />
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

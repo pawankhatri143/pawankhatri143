@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.vendor.activity.DispatchStatusActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:background="@drawable/btn_rectangle_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_back"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:paddingLeft="18sp"
+                android:paddingRight="5dp"
+                android:text="Dispatch List"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rectangle_background"
+            app:tabIconTint="@color/grayLight"
+            app:tabIndicatorColor="@color/white"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/gray3"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/viewPager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

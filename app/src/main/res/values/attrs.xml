@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ElasticLayout">
+        <attr name="layout_scale" format="float" />
+        <attr name="layout_duration" format="integer" />
+        <attr name="layout_cornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>

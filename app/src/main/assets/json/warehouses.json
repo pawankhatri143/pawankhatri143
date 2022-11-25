@@ -1,0 +1,141 @@
+[
+  {
+    "WarehouseLocation": "Vikasnagar",
+    "warehouseType": "FCI/RFC",
+    "personName": "Ashutosh Kaushik",
+    "contact": "6396314460",
+    "CapacityInMTs": "11613",
+    "pinCode": "248001",
+    "DepotName": "Uttarakhand State Warehousing Corporation   Vikasnagar",
+    "address": "Uttarakhand State Warehousing Corporation  BabuGarh Vikasnagar"
+  },
+  {
+    "WarehouseLocation": "Nakronda",
+    "warehouseType": "FCI",
+    "personName": "Ramavatar",
+    "contact": "8077801184",
+    "CapacityInMTs": "10172",
+    "pinCode": "248001",
+    "DepotName": "Uttarakhand State Warehousing Corporation Nakronda Gularghati Derahudun",
+    "address": "Uttarakhand State Warehousing Corporation Nakronda Gularghati"
+  },
+  {
+    "WarehouseLocation": "Haridwar",
+    "warehouseType": "RFC",
+    "personName": "Rakesh Kumar",
+    "contact": "9927804210",
+    "CapacityInMTs": "5222",
+    "pinCode": "249401",
+    "DepotName": "Uttarakhand State Warehousing Corporation Haridwar",
+    "address": "Uttarakhand State Warehousing Corporation D15/16 Industrial Area Haridwar"
+  },
+  {
+    "WarehouseLocation": "Kashipur",
+    "warehouseType": "RFC",
+    "personName": "Vipin Kumar",
+    "contact": "9837340780",
+    "CapacityInMTs": "5000",
+    "pinCode": "244713",
+    "DepotName": "Uttarakhand State Warehousing Corporation Kashipur",
+    "address": "Uttarakhand State Warehousing Corporation Fal and Sbji mandi thela nadi ke paas Kashipur(Udamsingh nagar) "
+  },
+  {
+    "WarehouseLocation": "Gadarpur",
+    "warehouseType": "FCI/RFC",
+    "personName": "Devender Singh Rawat",
+    "contact": "9084596330",
+    "CapacityInMTs": "16081",
+    "pinCode": "263152",
+    "DepotName": "Uttarakhand State Warehousing Corporation Gadarpur",
+    "address": "Uttarakhand State Warehousing Corporation Post Office Gadarpur(Udam Singh Nagar)"
+  },
+  {
+    "WarehouseLocation": "Gularbhoj",
+    "warehouseType": "FCI",
+    "personName": "Devender Singh Rawat",
+    "contact": "9084596330",
+    "CapacityInMTs": "3940",
+    "pinCode": "263152",
+    "DepotName": "Uttarakhand State Warehousing Corporation Gularbhoj",
+    "address": "Uttarakhand State Warehousing Corporation Gularbhoj "
+  },
+  {
+    "WarehouseLocation": "Rudrapur",
+    "warehouseType": "RFC",
+    "personName": "Rakesh Kumar dubey",
+    "contact": "8864820612",
+    "CapacityInMTs": "10486",
+    "DepotName": "Uttarakhand State Warehousing Corporation Rudrapur",
+    "address": "Uttarakhand State Warehousing Corporation Kashi pur bypass road Gawa Rice Mill k samne Rudrapur"
+  },
+  {
+    "WarehouseLocation": "kichha",
+    "warehouseType": "FCI/RFC",
+    "personName": "Rajkumar Singh",
+    "contact": "9410376477",
+    "CapacityInMTs": "13111",
+    "pinCode": "263148",
+    "DepotName": "Uttarakhand State Warehousing Corporation kichha",
+    "address": "Uttarakhand State Warehousing Corporation Krishi Utpadan mandi samiti Drau Road kichha"
+  },
+  {
+    "WarehouseLocation": "Sitarganj",
+    "warehouseType": "FCI/RFC",
+    "personName": "Harsh Mohan singh toliya",
+    "contact": "7302207038",
+    "CapacityInMTs": "16060",
+    "pinCode": "262405",
+    "DepotName": "Uttarakhand State Warehousing Corporation Sitarganj",
+    "address": "Uttarakhand State Warehousing Corporation Amariya Road Sitarganj"
+  },
+  {
+    "WarehouseLocation": "Nanakmatta",
+    "warehouseType": "FCI/RFC",
+    "personName": "Sarvesh Rathod",
+    "contact": "7011364729",
+    "CapacityInMTs": "9000",
+    "pinCode": "262405",
+    "DepotName": "Uttarakhand State Warehousing Corporation Nanakmatta",
+    "address": "Uttarakhand State Warehousing Corporation dwara krishi utpadan mandi samiti Nanakmatta"
+  },
+  {
+    "WarehouseLocation": "Haldwani naveen mandi",
+    "warehouseType": "RFC",
+    "personName": "Rajesh Singh Verma",
+    "contact": "9837100106",
+    "CapacityInMTs": "6895",
+    "pinCode": "263139",
+    "DepotName": "Uttarakhand State Warehousing Corporation Haldwani naveen mandi",
+    "address": "Uttarakhand State Warehousing Corporation Haldwani naveen mandi"
+  },
+  {
+    "WarehouseLocation": "haldwani kamalwaganja",
+    "warehouseType": "RFC",
+    "personName": "Rajiv Pant",
+    "contact": "8218317008",
+    "CapacityInMTs": "16470",
+    "pinCode": "263139",
+    "DepotName": "Uttarakhand State Warehousing Corporation haldwani kamalwaganja",
+    "address": "Uttarakhand State Warehousing Corporation haldwani post office Haripurnayak kamalwaganja"
+  },
+  {
+    "WarehouseLocation": "Ramnagar",
+    "warehouseType": "RFC",
+    "personName": "Santosh singh negi",
+    "contact": "9917267644",
+    "CapacityInMTs": "2364",
+    "pinCode": "244715",
+    "DepotName": "Uttarakhand State Warehousing Corporation Ramnagar",
+    "address": "Uttarakhand State Warehousing Corporation Shivlaalpur mandi samiti type -2 aavash Ramnagar(Nainital)"
+  },
+  {
+    "WarehouseLocation": "Almora",
+    "warehouseType": "RFC",
+    "personName": "Harsh Mohan singh toliya",
+    "contact": "7302207038",
+    "CapacityInMTs": "5000",
+    "pinCode": "263601",
+    "DepotName": "Uttarakhand State Warehousing Corporation Almora",
+    "address": "Uttarakhand State Warehousing Corporation Base hospital k paas Khatyadi Almora"
+  }
+]

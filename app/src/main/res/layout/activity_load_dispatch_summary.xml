@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".ui.trader2.DispatchSummaryActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:padding="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:text="Dispatch ID :"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtDispatchID"
+                            android:layout_marginStart="10dp"
+                            android:textColor="@color/red"
+                            tools:text="453495934"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/ic_qrcode" />
+
+                    <TextView
+                        android:textColor="@color/textColor_dim"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="Show this code to the vendor while handing over the material"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Vendor"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtVenderName"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Vendor Location"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtLocation"
+                            android:textColor="@color/black"
+                            tools:text="Jawlapur Haridwar"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:text="Transport"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtTransport"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Transport Type"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtTransportType"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Vehicle Number"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtVehicleNumber"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Driver Name"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtDriverName"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout> <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Driver Number"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtDriverNumber"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="P.O Number"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtPoNumber"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Invoice Number"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtInvoiceNumber"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Vehicle Number"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtVNumber"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Driver Number"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtDriverNo"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Transport Agency"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtAgncyNumber"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textColor="@color/textColor61"
+                            android:text="Remark"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+
+
+                        <TextView
+                            android:id="@+id/txtRemark"
+                            android:textColor="@color/black"
+                            tools:text="Shri Ram Enterprises"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <com.bharuwa.sumadhu.custom.ElasticLayout
+                android:id="@+id/btnHome"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_rounded"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/back_to_home"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/button_font_size" />
+
+            </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

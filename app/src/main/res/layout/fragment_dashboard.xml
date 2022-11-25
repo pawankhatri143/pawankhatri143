@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutBoxesScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtTrader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="@string/trader"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/switch1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:checked="false"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:kswBackColor="@color/yellow"
+
+            app:kswTextExtra="15dp"
+            app:kswThumbColor="@color/white"
+            app:kswThumbRadius="50dp" />
+
+        <TextView
+            android:id="@+id/txtBeeKeeper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="@string/beekeeper"
+            android:textColor="@color/textColor_dim"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llOne">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/dashboard_list_item" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.bharuwa.sumadhu.custom.ElasticCardView
+        android:id="@+id/layoutAddNew"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:innerRadius="0dp"
+        android:orientation="vertical"
+        android:shape="ring"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add" />
+    </com.bharuwa.sumadhu.custom.ElasticCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

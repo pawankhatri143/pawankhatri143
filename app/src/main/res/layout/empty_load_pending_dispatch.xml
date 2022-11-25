@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutEmptyScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/itemLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/nolocation_found" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="No any pending dispatch for now"
+            android:textColor="@color/edittext_title_color"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/start_process_of_dispatch"
+            android:textColor="@color/textTitle"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/layoutContinue"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_rounded"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/continues"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="@dimen/button_font_size"
+                android:textColor="@color/white"/>
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

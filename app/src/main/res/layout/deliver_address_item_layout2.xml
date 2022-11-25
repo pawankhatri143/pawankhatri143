@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layoutAddressItem"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/card_bg">
+
+   <!-- <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:layout_marginStart="5dp" />-->
+
+
+    <ImageView
+        android:id="@+id/farmImage"
+
+        android:src="@drawable/img_footer3"
+        android:background="@drawable/container_reactangle_boader"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/montserrat_medium"
+            tools:text="Shari Ram"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/cardViewEdit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            tools:text="vpo ismaila"
+            android:textColor="@color/textColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+        <!--
+                <TextView
+                    android:id="@+id/tvPincode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="124501"
+                    android:textColor="@color/red"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toStartOf="@+id/cardViewEdit"
+                    app:layout_constraintStart_toEndOf="@+id/tvName"
+                    app:layout_constraintTop_toTopOf="parent" />
+        -->
+        <TextView
+            android:id="@+id/tvPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:paddingBottom="10dp"
+            tools:text="xxxxxxxxxx"
+            android:textColor="@color/textColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+
+        <TextView
+            android:id="@+id/tvDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/defaults"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            android:visibility="visible"
+
+            app:layout_constraintBottom_toBottomOf="@+id/tvPhoneNumber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvPhoneNumber" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="100dp"
+            android:visibility="gone"
+            app:cardElevation="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:src="@drawable/ic_add"
+                app:tint="@color/red" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="10dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="3dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardViewDelete"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:src="@drawable/ic_edit"
+                app:tint="@color/green" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

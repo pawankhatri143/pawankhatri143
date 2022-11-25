@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/titlebarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutAddSelectedFlora"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        tools:layout_editor_absoluteX="10dp">
+
+
+        <EditText
+            android:id="@+id/editTextSearchFlora"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_height"
+            android:background="@drawable/videos_text_bg"
+            android:drawableRight="@drawable/ic_search"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/black"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="@string/enter_flora_name"
+            android:imeOptions="actionDone"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textSize="13dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewFlora"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:listitem="@layout/item_flora_multiple_selction" />
+
+        <TextView
+            android:id="@+id/emptyFloraList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/card_background"
+            android:fontFamily="@font/montserrat_regular"
+            android:padding="12dp"
+            android:text="@string/no_records_found"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <com.bharuwa.sumadhu.custom.ElasticLayout
+        android:id="@+id/layoutAddSelectedFlora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_ractangle"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_font_size" />
+
+    </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

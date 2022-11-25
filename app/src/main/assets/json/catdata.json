@@ -1,0 +1,86 @@
+[
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_01",
+    "name": "Coconut",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Coconut.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_02",
+    "name": "Mandarin(Orange)",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Mandarin(Orange).jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_03",
+    "name": "Phalsa",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Phalsa.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_04",
+    "name": "Pummelo",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Pummelo.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_05",
+    "name": "Persimmon",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Persimmon.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_06",
+    "name": "Grapefruit(Chakotara)",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Grapefruit(Chakotara).jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_07",
+    "name": "Kiwi",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Kiwi.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_08",
+    "name": "Pear",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Pear.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_09",
+    "name": "Banana",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Banana.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_010",
+    "name": "Strawberry",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Strawberry.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_011",
+    "name": "Papaya",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Papaya.jpg"
+  },
+  {
+    "cname": "Fruits",
+    "cmasterCode": "CAT_01",
+    "masterCode": "FUR_012",
+    "name": "Watermelon",
+    "subCategoryImage": "http://182.18.155.187:8080/FruitsSubCat/Watermelon.jpg"
+  }
+]

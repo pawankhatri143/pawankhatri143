@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.trader2.FindUserDetailsActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtTittle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/enter_trader_or_farmer_details"
+        android:textColor="@color/textColor"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
+
+    <RadioGroup
+        android:visibility="gone"
+        android:id="@+id/radioGroupUserType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/txtTittle">
+
+        <RadioButton
+            android:id="@+id/rbBeeMkr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Beekeeper"
+            android:textColor="@color/textcolorB"
+            android:paddingLeft="15dp"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rbTrader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:paddingLeft="15dp"
+            android:text="Trader"
+            android:textColor="@color/textcolorB"
+            android:textSize="15sp" />
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22sp"
+        android:layout_marginTop="45dp"
+        android:text="Enter Phone Number of the beekeeper"
+        android:textColor="@color/textColor_dim"
+        android:textSize="14sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupUserType" />
+
+    <EditText
+        android:id="@+id/edtMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20sp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:textColor="@color/textColor"
+        android:paddingStart="8dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_phone"
+
+        android:background="@drawable/edittext_bg"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="RtlSymmetry" >
+        <requestFocus/>
+
+</EditText>
+
+
+
+
+
+
+    <com.bharuwa.sumadhu.custom.ElasticLayout
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/btn_rounded"
+        android:gravity="center_vertical"
+
+
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMobileNumber">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="OR"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+
+        android:id="@+id/textView6"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:text="Scan Farm code"
+
+        android:textColor="@color/textColor_dim"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMobileNumber" />
+    <LinearLayout
+
+        android:visibility="gone"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20sp">
+
+        <ImageView
+
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ic_qrcode" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:hint="Tab here to scan"
+            android:gravity="center_vertical"
+            android:maxLength="10"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:ignore="RtlSymmetry" >
+
+
+        </TextView>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgTabToScan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_qrcode"
+        app:tint="@color/light_gray" />
+
+    <TextView
+        android:id="@+id/txtTabToScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Tab to scan farm"
+
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMobileNumber" />
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:background="@drawable/top_corner_round_rectangle">
+
+<View
+    android:layout_width="20dp"
+    android:layout_height="2dp"
+    android:background="@color/gray"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="20dp"/>
+    <TextView
+
+        android:id="@+id/tvMediaPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Pick Media"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:paddingBottom="40dp"
+        android:id="@+id/linearLayoutCamera"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvMediaPicker"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayoutGallery"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="53dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/camera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:text="Camera" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingBottom="40dp"
+        android:id="@+id/linearLayoutGallery"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayoutPhotoes"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayoutCamera"
+        app:layout_constraintTop_toBottomOf="@+id/tvMediaPicker">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/gallery" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:text="Gallery" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingBottom="40dp"
+        android:id="@+id/linearLayoutPhotoes"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvMediaPicker"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayoutGallery"
+        tools:layout_editor_absoluteY="53dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/photos" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:text="Photos" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

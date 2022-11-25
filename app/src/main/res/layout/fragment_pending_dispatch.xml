@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.vendor.fragment.PendingDispatchFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnProceed"
+        tools:listitem="@layout/item_already_blended" />
+
+    <com.bharuwa.sumadhu.custom.ElasticLayout
+        android:id="@+id/btnProceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_ractangle"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/proceed"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_font_size" />
+
+    </com.bharuwa.sumadhu.custom.ElasticLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

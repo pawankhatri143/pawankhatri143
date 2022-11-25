@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_add_dispatch.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_add_drum.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_add_new_location.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_auth.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_barcode_scanner2.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_blending_summary.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_box_scanned.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_buckit_list.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_buy_honey_from_farmer.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_change_language.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_city_state.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_dispatch.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_dispatch_status.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_dispatch_summary.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_farm_details.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_farm_on_map.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_farm_setup.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_find_user_details.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_flora_selection.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_generate_qrcode.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_inward_confirmation.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_inward_stock.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_inward_stock_detail.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_landing.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_load_dispatch.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_load_dispatch_summary.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_location_list.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_my_dispatch.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_my_drum.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_my_orders.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_pre_blending.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_scanner.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/activity_trader_deshboard.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/app_bar_patient_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/content_patient_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/dashboard_list_item.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/fragment_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/fragment_dashboard_new.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/fragment_dashboard_trader.xml" value="0.1796875" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/fragment_dashboard_trader2.xml" value="0.15925925925925927" />
+        <entry key="..\:/Android Setup/Sumadhu Android App/sumadhu-android/app/src/main/res/layout/item_multiple_box_selction.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/drawable/btn_ractangle.xml" value="0.188" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/drawable/btn_rounded.xml" value="0.161" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/drawable/edit_text_bg.xml" value="0.188" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/drawable/ic_search.xml" value="0.161" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/activity_add_new_location.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/activity_blending_summary.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/activity_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/activity_inward_stock_detail.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/activity_landing.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/activity_pre_blending.xml" value="0.22" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/app_alert_layout.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/home_pager_item_layout.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/progress_layout.xml" value="0.1796875" />
+        <entry key="..\:/Users/Pawan Khatri/Downloads/sumadhu-android-aniruddha_tiwari/app/src/main/res/layout/weigth_edittext_layout.xml" value="0.48660084626234135" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-hdpi/drawable/ic_deliver.xml" value="0.1065" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-hdpi/drawable/ic_logout_icon.xml" value="0.1065" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-hdpi/drawable/ic_mylocation.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-v24/app_edit_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-v24/chip_background_dark_boader.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-v24/container_reactangle_boader.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-v24/ic_no_search.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-v24/search_text_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable-v24/selected_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/bottom_corners_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/box_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/btn_background.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/btn_ractangle.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/btn_rounded.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/card_background.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/card_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/edit_text_line.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/edittext_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_arrow_down.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_bee.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_box.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_close.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_edit.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_edit_verify.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_logout.xml" value="0.101" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_logout_icon.xml" value="0.1065" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_minus.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_mylocation.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_next.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_scanner.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_search.xml" value="0.1065" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_share.xml" value="0.158" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_user_circle.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/ic_user_profile.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/otp_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/rounded_border.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/start_setup_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/top_corner_round_rectangle.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/drawable/videos_text_bg.xml" value="0.1065" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/font/montserrat.xml" value="0.19722222222222222" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/font/montserrat_bold.xml" value="0.19722222222222222" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/font/montserrat_medium.xml" value="0.19722222222222222" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/font/montserrat_regular.xml" value="0.19722222222222222" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/font/montserrat_semibold.xml" value="0.19722222222222222" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/font/roboto_bold.xml" value="0.18333333333333332" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/font/roboto_regular.xml" value="0.19722222222222222" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_add_address.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_add_delivery_address.xml" value="0.16666666666666666" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_add_new_location.xml" value="0.14074074074074075" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_box_scanned.xml" value="0.25" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_change_language.xml" value="0.22" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_city_state.xml" value="0.16666666666666666" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_delivery_address_list.xml" value="0.16907675194660735" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_empty_box.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_farm_details.xml" value="0.175" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_farm_on_map.xml" value="0.15925925925925927" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_farm_setup.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_generate_qrcode.xml" value="0.15925925925925927" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_landing.xml" value="0.175" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_location_list.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_login.xml" value="0.13999999999999999" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_map.xml" value="0.15925925925925927" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_otp_verification.xml" value="0.22" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_registration.xml" value="0.14666666666666667" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_scanner.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_scanner_for_empty.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_setupbox.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_splash.xml" value="0.16666666666666666" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/activity_update_profile.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/app_alert_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/app_bar_patient_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/category_item_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/city_state_list_item.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/confirm_alert_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/content_patient_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/dashboard_list_item.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/del_acc_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/deliver_address_item_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/flora_item_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/fragment_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/fragment_dashboard_new.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/fragment_dashboard_start.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/fragment_image_chooser_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/fragment_notifications.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/fragment_profile.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/group_location_view.xml" value="0.22" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/item_multiple_box_selction.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/language_item_layout.xml" value="0.15925925925925927" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/myboxes_list_items.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/no_result_found_view.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/postal_code_item_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/precription_list_items.xml" value="0.14074074074074075" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/progress_layout.xml" value="0.1" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/register_titlebar.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/selected_category_item_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/spinner_source_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/test_login3.xml" value="0.175" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/titlebarlayout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/videos_text_bg.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/layout/village_list_item.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/Sumadhu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1065" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable-v24/app_edit_bg.xml" value="0.107" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable-v24/selected_bg.xml" value="0.107" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable/bottom_corners_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable/box_bg.xml" value="0.107" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable/btn_ractangle.xml" value="0.107" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable/btn_rounded.xml" value="0.107" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable/card_background.xml" value="0.107" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable/ic_add.xml" value="0.107" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/drawable/videos_text_bg.xml" value="0.1" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/font/montserrat_bold.xml" value="0.19814814814814816" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_add_new_location.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_auth.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_box_scanned.xml" value="0.15555555555555556" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_city_state.xml" value="0.1" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_flora_selection.xml" value="0.15555555555555556" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_landing.xml" value="0.15555555555555556" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/activity_otp_verification.xml" value="0.15555555555555556" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/app_alert_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/app_bar_patient_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/confirm_alert_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/dashboard_list_item.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/flora_item_layout.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/fragment_dashboard.xml" value="0.15555555555555556" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/fragment_dashboard_new.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/fragment_dashboard_start.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/fragment_image_chooser_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/item_flora_multiple_selction.xml" value="0.16666666666666666" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/item_multiple_box_selction.xml" value="0.1796875" />
+        <entry key="..\:/Workspace/sumadhu-android/app/src/main/res/layout/titlebarlayout.xml" value="0.1796875" />
+        <entry key="..\:/sumadhu-android/app/src/main/res/layout/activity_update_profile.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

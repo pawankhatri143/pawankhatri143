@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="@color/purple_500"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp">
+
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/ic_person5"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    app:tint="@color/black" />
+
+                <TextView
+                    android:id="@+id/textViewTraderName"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Pawan Traders"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"  />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:id="@+id/textViewStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Active"
+                    android:textSize="14sp"
+                    android:textColor="@color/red"
+                    android:textStyle="normal"
+                    android:layout_marginEnd="10dp"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_drum2"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp" />
+
+                    <TextView
+                        android:id="@+id/textViewVendorWarehouse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        tools:text="Warehouse Main"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_dispatch"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"  />
+
+                    <TextView
+                        android:id="@+id/textViewDispatchId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        tools:text="TD114"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_flora"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"  />
+
+                    <TextView
+                        android:id="@+id/textViewFlora"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        tools:text="Sunflower"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_ponumber"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_report2"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"  />
+
+                    <TextView
+                        android:id="@+id/textViewPONumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_weigth6"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        app:tint="#fd7e20" />
+
+                    <TextView
+                        android:id="@+id/txtWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="200 kg"
+                        android:textSize="12sp"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/llDriverName"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_person2"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        app:tint="#fd7e20" />
+
+                    <TextView
+                        android:id="@+id/textViewDriverName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_phone"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        app:tint="#fd7e20" />
+
+                    <TextView
+                        android:id="@+id/textViewDriverNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llTransportDetail"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="0dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/ic_deliver"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        app:tint="#fd7e20" />
+
+                    <TextView
+                        android:id="@+id/textViewVehicalNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

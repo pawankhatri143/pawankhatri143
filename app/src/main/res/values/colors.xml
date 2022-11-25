@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#DF9933</color>
+    <color name="purple_500">#DF9933</color>
+    <color name="purple_700">#DF9933</color>
+    <color name="teal_200">#CB52725D</color>
+    <color name="teal_700">#52725D</color>
+
+    <color name="yellow">#DF9933</color>
+    <color name="yellow_100">#DE9932</color>
+    <color name="color_checkin">#a6d5fa</color>
+    <color name="color_checkout">#065f93</color>
+    <color name="bg_color">#F5FAF7</color>
+    <color name="text_color">#868686</color>
+    <color name="textcolorB">#2A2A2A</color>
+    <color name="bg">#F7F7F7</color>
+
+
+    <color name="button_start_color1">#640e12</color>
+    <color name="button_start_color">#640e12</color>
+    <color name="button_end_color">#640e12</color>
+    <color name="address_box">#F3EBEB</color>
+
+    <color name="login_text_color">#640e12</color>
+
+    <color name="list_item_heading">#FF000000</color>
+    <color name="list_item_value">#C14A4A4A</color>
+    <color name="ligth_blue">#F9F9F9</color>
+    <color name="button_color">#640E11</color>
+    <color name="color_dislike">#949494</color>
+    <color name="textColor2">#616161</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_50">#75EFEFEF</color>
+    <color name="white_80">#EFEFEF</color>
+    <color name="textValue">#A1A1A1</color>
+    <color name="textColor61">#616161</color>
+    <color name="textTitle">#C3C1C1</color>
+    <color name="textColor">#4a4a4a</color>
+    <color name="textColor_dim">#949494</color>
+    <color name="edittext_title_color">#C14A4A4A</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="gray3">#F0F0F0</color>
+    <color name="box_bg">#FFFFFF</color>
+    <color name="red">#FF0202</color>
+    <color name="green">#155227</color>
+    <color name="color_patanjali">#EB5757</color>
+
+    <color name="edit_shadow">#0D000033</color>
+    <color name="light_gray">#3C000033</color>
+    <color name="view">#B1B1B5</color>
+    <color name="edit_bg">#BFECCAA4</color>
+    <color name="grayLight">#C9C8C8</color>
+    <color name="lightGray">#EFF5F7</color>
+    <color name="colorPrimary">#0bab64</color>
+    <color name="colorPrimaryDark">#0bab64</color>
+
+
+
+    <color name="color_unfill_underline">#aaa</color>
+    <color name="color_fill_underline">#210333</color>
+    <color name="color_focus_underline">#FF6200EE</color>
+    <color name="text_lebel_unfill">#aaa</color>
+    <color name="text_lebel_fill">#210333</color>
+    <color name="text_lebel_focus">#FF6200EE</color>
+    <color name="dashboard_color">#9A2674EF</color>
+
+    <color name="text_blue">#344882</color>
+    <color name="sky_blue">#EBEEFB</color>
+
+    <color name="orange_1000">#E1560F</color>
+    <color name="orange_800">#FC6B17</color>
+    <color name="orange_500">#FFC544</color>
+    <color name="yellow_1000">#FFEB3B</color>
+
+
+    <color name="icon_color">#FD6A16</color>
+    <color name="skin_color">#F0BC5E</color>
+
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.view.DashboardActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="?attr/colorPrimary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="@dimen/nav_header_vertical_spacing"
+                    android:src="@drawable/logo" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Ashok"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tvMobileNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="8888888888"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgLogout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_logout" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/content_patient_dashboard" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

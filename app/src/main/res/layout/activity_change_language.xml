@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.ChangeLanguageActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_footer3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_splash_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/titlebarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:text="Choose Language\nभाषा चुनिए"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!--
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
+                tools:listitem="@layout/language_item_layout" />
+        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <com.bharuwa.sumadhu.custom.ElasticLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewHindi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:elevation="0dp"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="8dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/langName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="हिंदी"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/radioButton1"
+                            app:layout_constraintStart_toEndOf="@+id/radioButton1"
+                            app:layout_constraintTop_toTopOf="@+id/radioButton1" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="20dp"
+                            android:backgroundTint="@color/green"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:src="@drawable/a_hindi"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/langName"
+                            app:tint="@color/white" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+            </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+            <com.bharuwa.sumadhu.custom.ElasticLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:elevation="0dp"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="8dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:clickable="false"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/langNameEng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:text="English"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/radioButton2"
+                            app:layout_constraintStart_toEndOf="@+id/radioButton2"
+                            app:layout_constraintTop_toTopOf="@+id/radioButton2" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="20dp"
+                            android:backgroundTint="@color/green"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:src="@drawable/a_english"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/langNameEng"
+                            app:tint="@color/white" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+            </com.bharuwa.sumadhu.custom.ElasticLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.bharuwa.sumadhu.custom.ElasticLayout
+        android:id="@+id/layoutSetLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_rounded"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/set_language"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_font_size" />
+
+    </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

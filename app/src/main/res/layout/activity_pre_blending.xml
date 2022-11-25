@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/titlebarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/llBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        tools:context=".activities.BlendingActivity">
+
+        <LinearLayout
+            android:id="@+id/blending_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location2"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_bg"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinnerLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/desired_quantity_kgs"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/editTextDesiredQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_bg"
+                android:fontFamily="@font/montserrat_regular"
+
+                android:inputType="number"
+                android:maxLength="7"
+                android:digits="1234567890."
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/blending_date2"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/editTextBlendingDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:hint="@string/blending_date2"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewDate"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_calendar" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/flora"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <EditText
+                android:id="@+id/editTextFlora"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_bg"
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="@string/flora"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:drawableEnd="@drawable/ic_arrow_down"
+                android:editable="false"
+                android:focusable="false"
+                android:paddingEnd="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/remark"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/editTextRemark"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_bg"
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="@string/remark"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/testing_approved_inward"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewBlending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    tools:listitem="@layout/item_blending_inward" />
+
+            </LinearLayout>
+
+
+           <!-- <com.bharuwa.sumadhu.custom.ElasticLayout
+                android:id="@+id/buttonProceed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/btn_ractangle"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/proceed_blending"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/button_font_size" />
+
+            </com.bharuwa.sumadhu.custom.ElasticLayout>-->
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:gravity="end"
+            android:visibility="gone"
+            android:layout_marginEnd="3dp"
+            android:id="@+id/txtWeigthIndecator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="0/0"
+
+            android:textColor="@color/textColor"
+            android:textSize="12sp" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressindicator"
+            app:indicatorColor="@color/colorPrimary"
+
+            app:trackThickness="8dp"
+            app:trackColor="@color/yellow_1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+        <LinearLayout
+
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edit_shadow"
+            android:orientation="horizontal"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Total Batch Weight: "
+                android:textColor="@color/textColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtDesiredWeigth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Kg."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edit_shadow"
+            android:orientation="horizontal"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Total Selected Weight: "
+                android:textColor="@color/textColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtSelectedWeigth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Kg."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edit_shadow"
+            android:orientation="horizontal"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Total Over Weight: "
+                android:textColor="@color/textColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtOverWeigth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Kg."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/buttonProceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_ractangle"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Proceed"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_font_size" />
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

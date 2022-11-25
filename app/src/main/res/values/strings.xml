@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Sumadhu</string>
+    <string name="lan_hindi"> हिंदी</string>
+    <string name="lang_english">English</string>
+
+    <string name="title_myboxes">My Farm</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_profile">Profile</string>
+    <string name="to_exit">Please click BACK again to exit</string>
+    <string name="name">Name</string>
+    <string name="name_star">Name<font color='#FF0000'> *</font></string>
+    <string name="email">Email</string>
+    <string name="email_star">Email<font color='#FF0000'> *</font></string>
+    <string name="gender">Gender</string>
+    <string name="gender_star">Gender<font color='#FF0000'> *</font></string>
+    <string name="registor_for">Register as<font color='#FF0000'> *</font></string>
+    <string name="state">State</string>
+    <string name="state_star">State<font color='#FF0000'> *</font></string>
+    <string name="district">District</string>
+    <string name="district_star">District<font color='#FF0000'> *</font></string>
+    <string name="city">City</string>
+    <string name="city_star">City<font color='#FF0000'> *</font></string>
+    <string name="village_street">Village/Street</string>
+    <string name="pincode_star">Pin code<font color='#FF0000'> *</font></string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email_id">Enter email Id</string>
+    <string name="please_select_location">Please select location</string>
+    <string name="please_select_state">Please select state</string>
+    <string name="please_select_district">Please select district</string>
+    <string name="please_select_city">Please select city</string>
+    <string name="enter_village_street">Enter village / street</string>
+    <string name="save">SAVE</string>
+    <string name="pin_code">Pin Code<font color='#FF0000'> *</font></string>
+    <string name="enter_pincode">Enter pincode</string>
+    <string name="app_alert">App Alert!</string>
+    <string name="internal_server_error">Internal server error!</string>
+    <string name="ok_caps">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="bee_species">Bee species<font color='#FF0000'> *</font></string>
+    <string name="enter_bee_species">Enter bee species</string>
+    <string name="number_of_box">Number of box</string>
+    <string name="enter_here">Enter here</string>
+    <string name="verify_your_mobile_number">Verify your mobile number</string>
+    <string name="please_enter_otp_received_on_your_mobile">Please enter OTP received on your mobile</string>
+    <string name="verify">Verify</string>
+    <string name="don_t_received_otp">Don\'t received OTP?</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="enter_your_mob_number">Please enter mobile number</string>
+    <string name="enter_valid_number">Please enter your 10 digit mobile number</string>
+    <string name="enter_valid_number_">Please enter your valid  mobile number</string>
+    <string name="validation_error">Validation Error!</string>
+    <string name="profile">Profile</string>
+
+    <string name="no_records_found">No records found</string>
+    <string name="you_have_not_scanned_any_box_yet">You have not scanned any box yet</string>
+    <string name="network_error">Network Error!</string>
+    <string name="error">Error!</string>
+    <string name="no_internet">No internet connection!</string>
+    <string name="select_state">Select state</string>
+    <string name="select_district">Select district</string>
+    <string name="select_city">Select city</string>
+    <string name="pincode_required">Pin code required</string>
+    <string name="select_gender">Select gender</string>
+    <string name="add_address">Add address</string>
+    <string name="location">Farm location</string>
+    <string name="select_location">Select farm location</string>
+    <string name="farm_setup">FARM SETUP</string>
+    <string name="please_set_location_first">Please set location first</string>
+    <string name="total_boxes">Total Boxes</string>
+    <string name="total_boxes_">Total Boxes:</string>
+    <string name="fill_total_boxes_">Full Boxes:</string>
+    <string name="emply_total_boxes_">Empty Boxes:</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cancelled_due_to_missing_camera_permission">Cancelled due to missing camera permission</string>
+    <string name="snanned">Scanned: </string>
+    <string name="scan_barrcode">SCAN BARCODE</string>
+    <string name="camera_initialization_error">Camera initialization error</string>
+    <string name="please_enter_barcode">Please enter barcode</string>
+    <string name="please_select_barcode">Please select barcode</string>
+    <string name="please_enter_6digit_barcode">Please enter at least 6 digit barcode</string>
+    <string name="boxes_successfully_saved">Box successfully saved</string>
+    <string name="relocate">RELOCATE</string>
+    <string name="empty">EMPTY</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="do_you_want_to_empty">Do you want to empty your boxes?</string>
+    <string name="do_you_want_to_relocate">Do you want to relocate your farm?</string>
+    <string name="total_scaned">Total selected:</string>
+    <string name="your_farms">YOUR FARMS</string>
+    <string name="select">SELECT</string>
+    <string name="farm_location">FARM LOCATION</string>
+    <string name="change_farm_location">Change farm location</string>
+    <string name="empty_boxes">EMPTY BOXES</string>
+    <string name="relocate_boxes">RELOCATE BOXES</string>
+    <string name="farm_name">Farm name<font color='#FF0000'> *</font></string>
+    <string name="farm_name4">Farm Name<font color='#FF0000'> *</font></string>
+    <string name="farm_name_">Farm name</string>
+    <string name="relocate_box">MIGRATE BOX</string>
+    <!--<string name="relocate_box">RELOCATE BOX</string>-->
+    <string name="empty_box">EMPTY BOX</string>
+    <string name="location_">Location</string>
+    <string name="flora">Flora</string>
+    <string name="flora_">Flora:</string>
+    <string name="bee">Bee</string>
+    <string name="date">Date</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="update_profie">UPDATE PROFILE</string>
+    <string name="farm">Farm:</string>
+    <string name="you_didn_t_setup_any_farm">You didn\'t setup any farm</string>
+    <string name="start_process_of_farm_setup">Start process of farm setup</string>
+    <string name="continues">CONTINUE</string>
+    <string name="new_farm_setup">NEW FARM SETUP</string>
+    <string name="defaults">Default</string>
+    <string name="get_current_location">Get current location</string>
+    <string name="bee_type">Bee type</string>
+    <string name="bee_type_">Bee Type</string>
+    <string name="bee_type_s">Bee Type<font color='#FF0000'> *</font></string>
+    <string name="select_flora">Select Flora</string>
+    <string name="enter_your_farm_name">Enter your farm name</string>
+    <string name="new_location">NEW LOCATION</string>
+    <string name="all">All</string>
+    <string name="do_you_want_to_logout">Do you want to logout?</string>
+    <string name="version">Version</string>\
+    <string name="select_language">SELECT LANGUAGE</string>
+    <string name="language_not_available">This language is not available</string>
+    <string name="change_language">CHANGE LANGUAGE</string>
+    <string name="set_language">SET LANGUAGE</string>
+    <string name="login">LOGIN</string>
+    <string name="login_small">Login</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="register">REGISTER</string>
+    <string name="please_select_language">Please selecte language</string>
+    <string name="verification">Verification</string>
+    <string name="finish">FINISH</string>
+    <string name="scan_barcode">Scan barcode</string>
+    <string name="enter_code_manually_if_the_camera_is_not_working">Enter code manually (If the camera is not working)</string>
+    <string name="enter_barcode">Enter barcode</string>
+    <string name="location_not_fount">Location not found!</string>
+    <string name="view_on_map"><u>View On Map</u></string>
+    <string name="farm_details">Farm Details</string>
+    <string name="setup_date">Setup Date:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_code_manually">Add code manually</string>
+    <string name="add_drum">Add Drum</string>
+    <string name="my_drum">My Drum</string>
+    <string name="add_bucket">Add Bucket</string>
+    <string name="tab_to_scan">tab to scan</string>
+    <string name="buy_honey_from_farmer">Buy Honey From Farmer</string>
+    <string name="farmer">Farmer</string>
+    <string name="trader">Trader</string>
+    <string name="back_to_home">Back To Home</string>
+
+
+    <string name="add">Add</string>
+    <string name="enter_flora_name">Enter flora name</string>
+    <string name="add_flora">Add flora</string>
+    <string name="add_flora_">Add Flora<font color='#FF0000'> *</font></string>
+    <string name="beekeeper">Beekeeper</string>
+    <string name="title_activity_my_net_work">MyNetWorkActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="my_beekeeper_s_network">My Beekeeper\'s Network</string>
+
+    <string name="buy_from">Buy From:</string>
+    <string name="choose_option">Choose:</string>
+    <string name="ok">ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_type2">User Type<font color='#FF0000'> *</font></string>
+    <string name="user_type">User Type</string>
+
+    <string name="record_not_found">Record Not Found</string>
+    <string name="inward_stock">Inward Stock</string>
+    <string name="quality_check">Quality Check</string>
+    <string name="blending">Blending</string>
+    <string name="dispatch">Dispatch</string>
+    <string name="inward_stock2">Inward Stock</string>
+    <string name="warehouse">Warehouse:</string>
+    <string name="dispatch_id">Dispatch Id:</string>
+    <string name="po_number">PO Number:</string>
+    <string name="po_amount">PO Amount:</string>
+    <string name="driver_name">Driver Name:</string>
+    <string name="driver_number">Driver Number:</string>
+    <string name="vehical_number">Vehical Number:</string>
+    <string name="detail">Quality Check Detail</string>
+    <string name="quality_test_result">Quality Test Result</string>
+    <string name="enter_remark">Enter Remark</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="inward_detail">Inward Detail</string>
+    <string name="dispatch_id2">Dispatch Id</string>
+    <string name="trader_name">Trader Name</string>
+    <string name="vendor_name">Vendor Name</string>
+
+    <string name="vendor_warehouse">Vendor Warehouse</string>
+    <string name="invoice_number">Invoice Number</string>
+    <string name="invoice_amount">Invoice Amount</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="driver_name1">Driver Name</string>
+    <string name="transport">Transport</string>
+    <string name="dispatch_type">Dispatch Type</string>
+    <string name="dispatch_net_weight">Dispatch Net Weight</string>
+    <string name="dispatch_status">Dispatch Status</string>
+    <string name="dispatch_date">Dispatch Date</string>
+    <string name="accept_inward">Accept Inward</string>
+    <string name="cancel_inward">Cancel Inward</string>
+    <string name="location2">Location</string>
+    <string name="desired_quantity_kgs">Batch weight (kgs)</string>
+    <string name="blending_date2">Blending Date</string>
+    <string name="remark">Remark</string>
+    <string name="testing_approved_inward">Approved Inward</string>
+    <string name="proceed_blending">Proceed Blending</string>
+    <string name="status">Status</string>
+    <string name="done">Done</string>
+    <string name="net_weight">Net Weight:</string>
+    <string name="net_weight_">Net Weight Ready To Dispatch</string>
+    <string name="quantity">Quantity:</string>
+    <string name="amount">Amount:</string>
+    <string name="capacity">Capacity:</string>
+    <string name="honey_weight">Honey Weight:</string>
+    <string name="empty_weight">Empty Weight:</string>
+    <string name="net_weight2">Net Weight:</string>
+    <string name="inward_date">Inward Date:</string>
+    <string name="inward_status">Inward Status:</string>
+    <string name="inward_date2">Inward Date</string>
+    <string name="difference_loss_quantity_kg">Difference/Loss quantity(Kg)</string>
+    <string name="vendor">Vendor:</string>
+    <string name="store_honey">Store Honey</string>
+    <string name="proceed">Proceed</string>
+    <string name="start_process_of_dispatch">Start process of dispatch</string>
+    <string name="home">Home</string>
+    <string name="honey_stored">Honey Stored!!</string>
+    <string name="max_yields_k_g">Max Yields (K.g)</string>
+    <string name="number_of_boxes">Number of Boxes</string>
+    <string name="farm_name2">Farm Name:</string>
+    <string name="location3">Location:</string>
+    <string name="enter_weight_of_honey_k_g">Enter weight of honey (K.g)</string>
+    <string name="total_nos">Total Nos.</string>
+    <string name="enter_nos">Enter Nos</string>
+    <string name="weight_kg">Weight(kg)</string>
+    <string name="note">You can\'t enter above</string>
+    <string name="kg">K.g</string>
+    <string name="you">You</string>
+    <string name="buy_honey">Buy Honey</string>
+    <string name="buy_honey_from_beeKeeper">Buy Honey From BeeKeeper</string>
+    <string name="add_farm_photo">Add Farm Photo <font color='#FF0000'> *</font></string>
+    <string name="farm_photos">Farm Photos</string>
+    <string name="farmer_name_">Farmer Name</string>
+    <string name="enter_trader_or_farmer_details">Enter trader or farmer details</string>
+    <string name="enter_farmer_details">Enter farmer details</string>
+
+</resources>

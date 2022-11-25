@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/titlebarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:autoFocusButtonColor="@android:color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="true"
+        app:frameAspectRatioHeight="1"
+        app:frameAspectRatioWidth="1"
+        app:frameColor="@android:color/white"
+        app:frameCornersRadius="0dp"
+        app:frameCornersSize="50dp"
+        app:frameSize="0.75"
+        app:frameThickness="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:maskColor="#77000000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/enter_code_manually_if_the_camera_is_not_working"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edtBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="@string/enter_barcode"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textSize="14sp" />
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/layoutAddBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_ractangle"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="@dimen/button_font_size"
+                android:text="@string/save"
+                android:textColor="@color/white" />
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

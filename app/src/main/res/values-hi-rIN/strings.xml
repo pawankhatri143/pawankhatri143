@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">सुमधु</string>
+    <string name="lan_hindi"> हिंदी</string>
+    <string name="lang_english">English</string>
+
+    <string name="title_myboxes">फार्म</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_profile">प्रोफ़ाइल</string>
+    <string name="to_exit">कृपया बाहर निकलने के लिए फिर से वापस क्लिक करें</string>
+    <string name="name">नाम</string>
+    <string name="name_star">नाम<font color='#FF0000'> *</font></string>
+    <string name="email">ईमेल</string>
+    <string name="email_star">ईमेल<font color='#FF0000'> *</font></string>
+    <string name="gender">लिंग</string>
+    <string name="gender_star">लिंग<font color='#FF0000'> *</font></string>
+    <string name="registor_for">पंजीकृत करें<font color='#FF0000'> *</font></string>
+    <string name="state">राज्य</string>
+    <string name="state_star">राज्य<font color='#FF0000'> *</font></string>
+    <string name="district">जिला</string>
+    <string name="district_star">जिला<font color='#FF0000'> *</font></string>
+    <string name="city">शहर</string>
+    <string name="city_star">शहर<font color='#FF0000'> *</font></string>
+    <string name="village_street">गांव/गली</string>
+    <string name="pincode_star">पिन कोड<font color='#FF0000'> *</font></string>
+    <string name="enter_name">नाम दर्ज करें</string>
+    <string name="enter_email_id">ईमेल आईडी दर्ज करें</string>
+    <string name="please_select_location">कृपया स्थान चुनें</string>
+    <string name="please_select_state">कृपया राज्य का चयन करें</string>
+    <string name="please_select_district">कृपया जिले का चयन करें</string>
+    <string name="please_select_city">कृपया शहर चुनें</string>
+    <string name="enter_village_street">गांव/गली का नाम दर्ज करें</string>
+    <string name="save">सुरक्षित करे</string>
+    <string name="pin_code">पिन कोड<font color='#FF0000'> *</font></string>
+    <string name="enter_pincode">पिनकोड दर्ज करें</string>
+    <string name="app_alert">ऐप अलर्ट!</string>
+    <string name="internal_server_error">आंतरिक सर्वर त्रुटि!</string>
+    <string name="ok_caps">ठीक है</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें...</string>
+    <string name="bee_species">मधुमक्खी प्रजाति<font color='#FF0000'> *</font></string>
+    <string name="enter_bee_species">मधुमक्खी प्रजाति दर्ज करें</string>
+    <string name="number_of_box">बॉक्स की संख्या</string>
+    <string name="enter_here">यहां दर्ज करें</string>
+    <string name="verify_your_mobile_number">अपना मोबाइल नंबर सत्यापित करें</string>
+    <string name="please_enter_otp_received_on_your_mobile">कृपया अपने मोबाइल पर प्राप्त ओटीपी दर्ज करें</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="don_t_received_otp">ओटीपी प्राप्त नहीं हुआ?</string>
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="enter_your_mob_number">कृपया मोबाइल नंबर दर्ज करें</string>
+    <string name="enter_valid_number">कृपया अपना 10 अंकों का मोबाइल नंबर दर्ज करें</string>
+    <string name="enter_valid_number_">कृपया अपना वैध मोबाइल नंबर दर्ज करें</string>
+    <string name="validation_error">मान्यता त्रुटि!</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="no_records_found">रिकॉर्ड नहीं मिला</string>
+    <string name="you_have_not_scanned_any_box_yet">आपने अभी तक कोई बॉक्स स्कैन नहीं किया है</string>
+    <string name="network_error">नेटवर्क त्रुटि!</string>
+    <string name="error">त्रुटि!</string>
+    <string name="no_internet">कोई इंटरनेट कनेक्शन नहीं!</string>
+    <string name="select_state">राज्य चुनें</string>
+    <string name="select_district">जिले का चयन करें</string>
+    <string name="select_city">शहर चुनें</string>
+    <string name="pincode_required">पिन कोड आवश्यक</string>
+    <string name="select_gender">लिंग चुनें</string>
+    <string name="add_address">पता जोड़ें</string>
+    <string name="location">फार्म का पता <font color='#FF0000'>*</font></string>
+    <string name="select_location">फार्म का स्थान चुनें</string>
+    <string name="farm_setup">फार्म सेटअप</string>
+    <string name="please_set_location_first">कृपया पहले स्थान निर्धारित करें</string>
+    <string name="total_boxes">कुल बॉक्स</string>
+    <string name="total_boxes_">कुल बॉक्स:</string>
+    <string name="fill_total_boxes_">बक्से भरें:</string>
+    <string name="emply_total_boxes_">खाली बक्से:</string>
+
+    <string name="cancelled">रद्द</string>
+    <string name="cancelled_due_to_missing_camera_permission">कैमरा अनुमति न होने के कारण रद्द किया गया</string>
+    <string name="snanned">स्कैन किए गए: </string>
+    <string name="scan_barrcode">बारकोड स्कैन करें</string>
+    <string name="camera_initialization_error">कैमरा आरंभीकरण त्रुटि</string>
+    <string name="please_enter_barcode">कृपया बारकोड दर्ज करें</string>
+    <string name="please_select_barcode">कृपया बारकोड चुनें</string>
+    <string name="please_enter_6digit_barcode">कृपया कम से कम 6 अंकों का बारकोड दर्ज करें</string>
+    <string name="boxes_successfully_saved">बॉक्स सफलतापूर्वक सेव किया गया</string>
+    <string name="relocate">स्थानांतरित करें</string>
+    <string name="empty">खाली करे</string>
+    <string name="are_you_sure">क्या आप सहमत है?</string>
+    <string name="do_you_want_to_empty">क्या आप अपने बक्सों को खाली करना चाहते हैं?</string>
+    <string name="do_you_want_to_relocate">क्या आप अपने फार्म को स्थानांतरित करना चाहते हैं?</string>
+    <string name="total_scaned">कुल चयनित:</string>
+    <string name="your_farms">आपका फार्म</string>
+    <string name="select">चुने</string>
+    <string name="farm_location">फार्म का स्थान</string>
+    <string name="change_farm_location">फार्म का स्थान बदलें</string>
+    <string name="empty_boxes">खाली बक्से</string>
+    <string name="relocate_boxes">स्थानांतरित बक्से</string>
+    <string name="farm_name">फार्म का नाम<font color='#FF0000'> *</font></string>
+    <string name="farm_name_">फार्म का नाम</string>
+    <string name="relocate_box">बॉक्स स्थानांतरित करे</string>
+    <string name="empty_box">बॉक्स खाली करे</string>
+    <string name="location_">पता</string>
+    <string name="flora">बनस्पति</string>
+    <string name="flora_">बनस्पति:</string>
+    <string name="bee">मधुमक्खी</string>
+    <string name="date">तारीख</string>
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="update_profie">प्रोफ़ाइल अपडेट करें</string>
+    <string name="farm">फार्म:</string>
+    <string name="you_didn_t_setup_any_farm">आपने कोई फ़ार्म सेटअप नहीं किया</string>
+    <string name="start_process_of_farm_setup">फार्म सेटअप की प्रक्रिया शुरू करें</string>
+    <string name="continues">आगे बढे</string>
+    <string name="new_farm_setup">नया फार्म सेटअप करें</string>
+    <string name="defaults">वर्तमान फार्म</string>
+    <string name="get_current_location">वर्तमान स्थान प्राप्त करें</string>
+    <string name="bee_type">मधुमक्खी का प्रकार</string>
+    <string name="bee_type_">मधुमक्खी का प्रकार</string>
+    <string name="bee_type_s">मधुमक्खी का प्रकार<font color='#FF0000'> *</font></string>
+    <string name="select_flora">फ्लोरा चुनें</string>
+    <string name="enter_your_farm_name">अपने फार्म का नाम दर्ज करें</string>
+    <string name="new_location">नया स्थान जोड़े</string>
+    <string name="all">सभी</string>
+    <string name="do_you_want_to_logout">क्या आप लॉगआउट करना चाहते हैं?</string>
+    <string name="version">संस्करण</string>
+    <string name="select_language">भाषा का चयन करें</string>
+    <string name="language_not_available">यह भाषा उपलब्ध नहीं है</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="set_language">भाषा सेट करे</string>
+    <string name="login">लॉगिन</string>
+    <string name="login_small">लॉगिन</string>
+    <string name="enter_your_mobile_number">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="enter_mobile_number">मोबाइल नंबर दर्ज करें</string>
+    <string name="male">पुरुष</string>
+    <string name="female">औरत</string>
+    <string name="other">अन्य</string>
+    <string name="register">पंजीकृत करें</string>
+    <string name="please_select_language">कृपया भाषा का चयन करें</string>
+    <string name="verification">सत्यापन</string>
+    <string name="finish">समाप्ति करें</string>
+    <string name="scan_barcode">बारकोड स्कैन करें</string>
+    <string name="enter_code_manually_if_the_camera_is_not_working">मैन्युअल रूप से कोड दर्ज करें (यदि कैमरा काम नहीं कर रहा है)</string>
+    <string name="enter_barcode">बारकोड दर्ज करें</string>
+    <string name="location_not_fount">स्थान नहीं मिला!</string>
+    <string name="view_on_map"><u>मानचित्र देखें</u></string>
+    <string name="farm_details">फ़ार्म का विवरण</string>
+    <string name="setup_date">सेटअप तिथि:</string>
+
+
+    <string name="add">जोड़ें</string>
+    <string name="enter_flora_name">वनस्पति नाम दर्ज करें</string>
+    <string name="add_flora">वनस्पतियों को जोड़ें</string>
+    <string name="add_flora_">वनस्पतियों को जोड़ें<font color='#FF0000'> *</font></string>
+    <string name="user_type">उपयोगकर्ता का प्रकार</string>
+    <string name="user_type2">उपयोगकर्ता का प्रकार<font color='#FF0000'> *</font></string>
+
+    <string name="record_not_found">रिकॉर्ड नहीं मिला</string>
+    <string name="inward_stock">आवक स्टॉक</string>
+    <string name="quality_check">गुणवत्ता जाँच</string>
+    <string name="blending">सम्मिश्रण</string>
+    <string name="dispatch">प्रेषण</string>
+    <string name="inward_stock2">आवक स्टॉक</string>
+    <string name="warehouse">गोदाम:</string>
+    <string name="dispatch_id">प्रेषण आईडी:</string>
+    <string name="po_number">पीओ नंबर:</string>
+    <string name="po_amount">पीओ राशि:</string>
+    <string name="driver_name">चालक का नाम:</string>
+    <string name="driver_number">चालक का नंबर:</string>
+    <string name="vehical_number">गाडी नंबर:</string>
+    <string name="detail">गुणवत्ता जांच विवरण</string>
+    <string name="quality_test_result">गुणवत्ता परीक्षण परिणाम</string>
+    <string name="enter_remark">टिप्पणी दर्ज करें</string>
+    <string name="approved">स्वीकृत</string>
+    <string name="rejected">अस्वीकृत</string>
+    <string name="inward_detail">आवक विवरण</string>
+    <string name="dispatch_id2">डिस्पैच आईडी</string>
+    <string name="trader_name">व्यापारी का नाम</string>
+    <string name="vendor_name">विक्रेता का नाम</string>
+    <string name="vendor_warehouse">विक्रेता गोदाम</string>
+    <string name="invoice_number">बीजक संख्या</string>
+    <string name="invoice_amount">बीजक राशि</string>
+    <string name="vehicle_number">गाडी नंबर</string>
+    <string name="driver_name1">चालक का नाम</string>
+    <string name="transport">यातायात</string>
+    <string name="dispatch_type">प्रेषण प्रकार</string>
+    <string name="dispatch_net_weight">प्रेषण शुद्ध वजन</string>
+    <string name="dispatch_status">प्रेषण स्थिति</string>
+    <string name="dispatch_date">प्रेषण की तारीख</string>
+    <string name="accept_inward">आवक स्वीकार करें</string>
+    <string name="location2">स्थान</string>
+    <string name="desired_quantity_kgs">वांछित मात्रा (किलो)</string>
+    <string name="blending_date2">सम्मिश्रण तिथि</string>
+    <string name="remark">टिप्पणी</string>
+    <string name="testing_approved_inward">परीक्षण स्वीकृत आवक</string>
+    <string name="proceed_blending">आगे बढ़ें सम्मिश्रण</string>
+    <string name="status">दर्जा</string>
+    <string name="done">पूर्ण</string>
+    <string name="net_weight">कुल भार:</string>
+    <string name="quantity">मात्रा:</string>
+    <string name="amount">राशि:</string>
+    <string name="capacity">क्षमता:</string>
+    <string name="honey_weight">शहद वजन:</string>
+    <string name="empty_weight">खाली वजन::</string>
+    <string name="net_weight2">कुल भार:</string>
+    <string name="inward_date">आवक तिथि:</string>
+    <string name="inward_status">आवक स्थिति:</string>
+    <string name="inward_date2">आवक तिथि</string>
+    <string name="difference_loss_quantity_kg">अंतर / हानि मात्रा (किलो)</string>
+    <string name="store_honey">शहद स्टोर करें</string>
+    <string name="proceed">आगे बढे</string>
+    <string name="start_process_of_dispatch">प्रेषण की प्रक्रिया प्रारंभ करें</string>
+    <string name="home">होम</string>
+    <string name="honey_stored">शहद संग्रहित !!</string>
+    <string name="max_yields_k_g">अधिकतम उपज (किलोग्राम)</string>
+    <string name="number_of_boxes">बक्सों की संख्या</string>
+    <string name="farm_name4">फ़ार्म का नाम<font color='#FF0000'> *</font></string>
+    <string name="farm_name2">फ़ार्म का नाम:</string>
+    <string name="location3">स्थान:</string>
+    <string name="enter_weight_of_honey_k_g">शहद का वजन दर्ज करें (किलोग्राम)</string>
+    <string name="total_nos">कुल बॉक्स संख्या</string>
+    <string name="enter_nos">नंबर दर्ज करें</string>
+    <string name="weight_kg">वजन (किग्रा)</string>
+    <string name="note">से ऊपर दर्ज नहीं कर सकते है</string>
+    <string name="kg">किग्रा</string>
+    <string name="you">आप</string>
+
+    <string name="beekeeper">मधुमक्खी-पाल</string>
+    <string name="farmer">किसान</string>
+    <string name="trader">व्यापारी</string>
+</resources>

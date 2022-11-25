@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_image"
+    android:layout_height="match_parent"
+    tools:context=".ui.trader2.TraderAndFarmDetailsActivity">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <include
+        android:id="@+id/userInfo"
+        app:layout_constraintTop_toBottomOf="@id/include"
+        layout="@layout/user_info_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+   <!-- <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/include">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/include"
+            tools:layout_editor_absoluteX="12dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_user_circle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Amit ji"
+                    android:textColor="@color/yellow"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtFieldId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="11000235666"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Abcd Road, xyz village, Haridwar Uttrakhand"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>-->
+
+    <TextView
+        android:id="@+id/txtFarmListTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Farm List"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userInfo" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnContinue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFarmListTittle"
+        tools:listitem="@layout/farm_item"/>
+
+    <com.bharuwa.sumadhu.custom.ElasticLayout
+        android:id="@+id/btnContinue"
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/btn_rounded"
+        android:gravity="center"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Proceed"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".ui.trader2.ManualOrderActivity">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+  <!--  <include
+        android:id="@+id/userInfo"
+        app:layout_constraintTop_toBottomOf="@id/include"
+        layout="@layout/user_info_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        tools:listitem="@layout/manual_order_layout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sky_blue"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:background="@color/grayLight"
+            android:orientation="horizontal"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Total weight: "
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:layout_marginStart="15dp"
+                android:id="@+id/txtTotalWeigth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="0"
+                android:maxLines="1"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text=" Kg."
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/btnProceed"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/btn_ractangle"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Proceed"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

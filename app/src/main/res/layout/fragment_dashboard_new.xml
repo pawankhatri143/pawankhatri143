@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image">
+
+    <LinearLayout
+        android:id="@+id/llSwitchLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/txtTrader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="@string/trader"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/switch1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:checked="false"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:kswBackColor="@color/yellow"
+            app:kswTextExtra="15dp"
+            app:kswThumbColor="@color/white"
+            app:kswThumbRadius="50dp" />
+
+        <TextView
+            android:id="@+id/txtBeeKeeper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="@string/beekeeper"
+            android:textColor="@color/textColor_dim"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/layoutBoxes"
+        layout="@layout/fragment_dashboard"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/layoutStart"
+        layout="@layout/fragment_dashboard_start"
+        android:visibility="gone" />
+</LinearLayout>

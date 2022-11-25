@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Registration"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
+
+

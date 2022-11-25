@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".ui.farm.FarmRelocationActivity">
+
+    <include
+        android:id="@+id/include4"
+        layout="@layout/titlebarlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/edittext_title_margin"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edittext_bg"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center_vertical"
+        android:hint="@string/please_select_location"
+        android:imeOptions="actionDone"
+        android:padding="8dp"
+        android:textSize="15dp"
+        android:visibility="gone">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/layoutLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_marging_left"
+            android:layout_marginRight="@dimen/content_marging_right"
+            android:layout_marginTop="@dimen/edittext_title_margin"
+            android:paddingLeft="4dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/select_location"
+            android:textColor="@color/textColor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/edtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_marging_left"
+            android:layout_marginRight="@dimen/content_marging_right"
+            android:layout_marginTop="@dimen/edittext_title_margin"
+            android:background="@drawable/edittext_bg"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:focusable="false"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center_vertical"
+            android:hint="@string/please_select_location"
+            android:imeOptions="actionDone"
+            android:padding="8dp"
+            android:textSize="15dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/llconstraint"
+        android:layout_marginLeft="@dimen/content_marging_left"
+        android:layout_marginRight="@dimen/content_marging_right"
+        android:layout_marginTop="@dimen/edittext_title_margin"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <EditText
+            android:id="@+id/etSearchItem"
+            android:layout_width="0dp"
+            android:layout_marginEnd="5dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:focusedByDefault="true"
+            android:hint="Search ..."
+            android:maxLines="1"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imgScanQrCode"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imgScanQrCode"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:elevation="40dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_qrcode"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/llconstraint"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCheckAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/content_marging_left"
+        android:layout_marginRight="@dimen/content_marging_left"
+        android:layout_marginTop="@dimen/edittext_title_margin"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <TextView
+            android:id="@+id/tvTotalCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/total_scaned"
+            android:paddingLeft="4dp"
+            android:textColor="@color/textColor"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/all"
+            android:textColor="@color/textColor"
+            android:textSize="14dp" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkboxAllSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/textColor"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/edittext_title_margin"
+            android:layout_marginRight="@dimen/edittext_title_margin"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/layoutRelocate"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/item_multiple_box_selction" />
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/layoutRelocate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_ractangle"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tvActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="RELOCATE"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_font_size" />
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

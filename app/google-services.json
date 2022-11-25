@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108212543603",
+    "project_id": "sumadhu-af3fa",
+    "storage_bucket": "sumadhu-af3fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108212543603:android:c99b2e558171bf7a948a06",
+        "android_client_info": {
+          "package_name": "com.bharuwa.sumadhu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108212543603-07v95eg6bmc6t64t435t2gup64890gt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4W8TwVH7qlYXoLtgrVQDKjKuYb1Y0rww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108212543603-07v95eg6bmc6t64t435t2gup64890gt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

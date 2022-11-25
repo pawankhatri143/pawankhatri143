@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbarLayout"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/btn_rectangle_background"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_back"
+            android:backgroundTint="@color/white"
+            android:clickable="true"
+            android:onClick="back"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:paddingLeft="18sp"
+            android:text="My Drums"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
+
+

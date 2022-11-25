@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bharuwa.sumadhu.custom.ElasticLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/red"
+        app:cardCornerRadius="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/langName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Hindi"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:src="@drawable/a_hindi"
+                android:backgroundTint="@color/green"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/langName" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</com.bharuwa.sumadhu.custom.ElasticLayout>

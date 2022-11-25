@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+   <!-- <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">-->
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/titlebarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+         />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/enter_code_manually_if_the_camera_is_not_working"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edtBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/montserrat_regular"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtDrumCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Enter drum capacity in kilogram"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edtDrumCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_bg"
+            android:fontFamily="@font/montserrat_regular"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textSize="14sp" />
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/btnAddDrum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_ractangle"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="@dimen/button_font_size"
+                android:text="@string/save"
+                android:textColor="@color/white" />
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

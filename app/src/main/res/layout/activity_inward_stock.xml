@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/include"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:background="@drawable/btn_rectangle_background"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btnBack"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_back"
+                app:tint="@color/white"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textTitles"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:background="@drawable/btn_rectangle_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/white"
+            app:tabIndicatorHeight="4dp"
+            app:tabMode="fixed"
+            app:tabTextColor="@android:color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+    <!--<include
+        android:id="@+id/include"
+        layout="@layout/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewInward"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        tools:listitem="@layout/item_inward_list" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

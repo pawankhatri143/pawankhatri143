@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/white"
+    android:background="@drawable/card_bg"
+    android:gravity="right|center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="-15dp"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:src="@drawable/barcode" />
+
+            <TextView
+                android:id="@+id/tvBarcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:text="Village"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/appCompatCheckBox"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/appCompatCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-15dp"
+            android:clickable="false"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".ui.farm.FarmListActivity">
+
+    <include
+        android:id="@+id/include4"
+        layout="@layout/titlebarlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewAddNewLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addnewAddress"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_add"
+                app:tint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/new_farm_setup"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/layoutSetLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewAddNewLocation">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewAddress"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            tools:listitem="@layout/deliver_address_item_layout" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.bharuwa.sumadhu.custom.ElasticLayout
+        android:visibility="gone"
+        android:id="@+id/layoutSetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/content_marging_left"
+        android:background="@drawable/btn_ractangle"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="@string/select"
+            android:fontFamily="@font/montserrat_medium"
+            android:textSize="@dimen/button_font_size"
+            android:textColor="@color/white"/>
+
+    </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

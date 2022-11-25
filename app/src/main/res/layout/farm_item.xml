@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="8dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="4dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginStart="2dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/imgLocation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_location_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/button_start_color1" />
+
+        <TextView
+            android:id="@+id/txtfieldName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Market Ke Peechey"
+            android:textColor="#640E11"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/appCompatCheckBox2"
+            app:layout_constraintStart_toEndOf="@+id/imgLocation"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <CheckBox
+
+            android:id="@+id/appCompatCheckBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtfieldName">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_bee_2" />
+
+                <TextView
+                    android:id="@+id/txtBeeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/container_reactangle_boader"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:text="Bee Species" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_flora" />
+
+                <TextView
+                    android:id="@+id/txtFlora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/container_reactangle_boader"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:text="Flora: Mango, Lichi" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/imgOpenMap"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_map" />
+
+                <TextView
+                    android:id="@+id/txtAddressName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/container_reactangle_boader"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp"
+                    tools:text="Abcd Road, xyz village, Haridwar Uttrakhand" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

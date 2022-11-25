@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="Widget.Theme.Sumadhu.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="Widget.Theme.Sumadhu.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">30%</item>
+    </style>
+</resources>

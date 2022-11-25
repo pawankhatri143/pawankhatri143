@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        android:scrollIndicators="none"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="25dp"
+                android:background="@drawable/ic_user_circle" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/user_type"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvUserType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:layout_toRightOf="@+id/txtDocName"
+                    android:fontFamily="@font/montserrat_regular"
+                    tools:text="Farmer"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textValue"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/text_title_top_margin"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:gravity="left"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:layout_toRightOf="@+id/txtBookingNo"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Name"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textValue"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/text_title_top_margin"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/email"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:layout_toRightOf="@+id/txtDocName"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="ashok@gmail.com"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textValue"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/text_title_top_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/gender"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <RadioGroup
+                    android:id="@+id/radioGroupGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbMale"
+                        android:clickable="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:paddingLeft="5dp"
+                        android:text="@string/male"
+                        android:textColor="@color/textColor"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbFemale"
+                        android:clickable="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:paddingLeft="5dp"
+                        android:text="@string/female"
+                        android:textColor="@color/textColor"
+                        android:textSize="15sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbOther"
+                        android:clickable="false"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="@string/other"
+                        android:textColor="@color/textColor"
+                        android:textSize="15sp" />
+
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/text_title_top_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/state"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:layout_toRightOf="@+id/txtAdmDate"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Chandigarh"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textValue"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/text_title_top_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/district"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvDistrict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:layout_toRightOf="@+id/txtDischargeDate"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Chandigarh"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textValue"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/text_title_top_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/city"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:layout_toRightOf="@+id/txtStatus"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Chandigarh"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textValue"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/text_title_top_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/village_street"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:layout_toRightOf="@+id/txtStatus"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Ind. Area phase 1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textValue"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_hight"
+                    android:layout_marginTop="@dimen/text_title_value_top_margin"
+                    android:background="@color/view" />
+
+            </LinearLayout>
+
+
+            <com.bharuwa.sumadhu.custom.ElasticLayout
+                android:id="@+id/layoutEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/button_top_margin"
+                android:background="@drawable/btn_ractangle"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_edit"
+                    android:drawablePadding="10dp"
+                    android:text="@string/update_profie"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textSize="@dimen/button_font_size"/>
+
+            </com.bharuwa.sumadhu.custom.ElasticLayout>
+            <com.bharuwa.sumadhu.custom.ElasticLayout
+                android:id="@+id/layoutChangeLang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/button_top_margin"
+                android:background="@drawable/btn_ractangle"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/change_language"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textSize="@dimen/button_font_size"/>
+
+            </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

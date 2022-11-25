@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <include
+        android:id="@+id/include4"
+        layout="@layout/titlebarlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Trader"
+                android:textColor="#616161"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/textViewTrader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Aniruddha Tiwari"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Flora"
+                android:textColor="#616161"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/textViewFlora"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Lichi"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Inward Date/Time"
+                android:textColor="#616161"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="12-05-2022 16:47"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Inward ID"
+                android:textColor="#616161"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/textViewInwardId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="1234567"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Weight"
+                android:textColor="#616161"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/textViewWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="400 K.g."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Containers"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:textColor="#333333"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Buckets (30Kg)"
+                    android:textColor="#616161"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="#616161" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="20 nos."
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Buckets (20Kg)"
+                    android:textColor="#616161"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="#616161" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="20 nos."
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Tin (15Kg)"
+                    android:textColor="#616161"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="#616161" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="20 nos."
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.bharuwa.sumadhu.custom.ElasticLayout
+            android:id="@+id/buttonDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_ractangle"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tvActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="DONE"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_font_size" />
+
+        </com.bharuwa.sumadhu.custom.ElasticLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

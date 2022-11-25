@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="@color/purple_500"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/textViewInwardId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6294ac17c16164ccf5df7ba2"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/capacity"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewContainerCapacity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="30"
+                        android:textSize="12sp"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/honey_weight"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewContainerHoneyWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="3000"
+                        android:textSize="12sp"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/empty_weight"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewContainerEmptyWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="2000"
+                        android:textSize="12sp"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/net_weight2"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewContainerNetWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="4344"
+                        android:textSize="12sp"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewTotalAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/amount"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewContainerAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="200"
+                        android:textSize="12sp"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/flora"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewContainerFlora"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="Ffffff"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/inward_date"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewInwardDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="5555555555"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="@string/inward_status"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_color" />
+
+                    <TextView
+                        android:id="@+id/textViewInwardStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="normal"
+                        android:text="ddddd"
+                        android:textSize="12sp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
